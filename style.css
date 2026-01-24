@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 253, 253, 0.996);
+    padding: 20px 80px;
+    text-align: center;
+    position: sticky;
+    height: 100px;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    /* box-shadow: 0px 5px 15px rgba(17, 10, 10, 0.061); */
+    
+}
+.logo1{
+    height: 80px;
+    border-radius: 20%;
+
+}
+.logo1:hover{
+    transform: translateY(-2px);
+    transition: all 0.3s;
+     box-shadow: 0px 0px 10px rgba(200, 177, 177, 0.7),
+                0px 0px 20px rgba(255, 227, 223, 0.6),
+                0px 0px 40px rgba(252, 234, 96, 0.5);}
+ .logo1:active{
+    transform: scale(0.95);}
+
+.cartlogo{
+    height: 40px;
+    border-radius: 100%;
+}
+.cartlogo:hover{
+    transform: translateY(-2px);
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px rgba(255, 198, 198, 0.7),
+                0px 0px 20px rgba(188, 173, 171, 0.6),
+                0px 0px 40px rgba(24, 21, 21, 0.5);
+}
+
+ .cartlogo:active{
+    transform: scale(0.95);} 
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}       
+#navbar li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 20px;
+}
+#navbar li a.active{
+    color: rgb(194, 8, 8);
+}
+#navbar a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #050505;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#navbar a:hover{
+    color: #e16a08;
+    text-shadow:rgba(248, 161, 47, 0.67) 0px 0px 10px;
+}
+
+.bar1{
+    width: 30px;
+    display: none;
+}
+#hero{
+    background-image: url("images/pexels-murvl-6109826.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100% ;
+    background-size: cover;
+    background-position: right 100px;
+    background-repeat: no-repeat;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;   
+}
+#Glass{
+    background: rgba(17, 16, 16, 0.173);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(49, 46, 46, 0.3);
+    padding: 40px;
+    text-align: flex-start;
+}
+#hero h1{
+    font-size: 35px;
+    padding: 20px 0px 0px 0px;
+    text-shadow: #cfafaf 2px 2px 4px;
+
+}
+#hero h2{
+    font-size: 40px;
+    padding-top: 10px;
+    border-bottom: 2px solid rgb(243, 241, 239);
+    color: rgb(250, 251, 251);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+#hero h4{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: linear-gradient(within rgb(255, 255, 255), rgb(40, 1, 1)) 2px 2px 4px;
+}
+#hero p{
+    font-size: 18px;
+    padding-top: 20px;
+    color: rgb(240, 238, 238);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#hero div{
+    margin-top: 40px;
+}
+#hero .hero-btn{
+    background-color: rgb(29, 13, 12);
+    text-decoration: none;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: ease 0.2s;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#hero .hero-btn:hover{
+    padding: 25px;
+}
+
+/* feature box */
+
+.img-card{
+    margin-top: 10px;
+    width: 160px;
+    height: 200px;
+    border-radius: 10px;
+}
+#backg{
+    background-image: url(images/pexels-murvl-6109826.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right 100px;
+    background-repeat: no-repeat;
+}
+#Feature{
+    height: auto;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    background: rgba(48, 22, 22, 0.405);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* box-shadow: #000000 0px 5px 50px; */
+}
+#Feature .fbox{
+    width: 180px;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 15px rgba(17, 10, 10, 0.061);
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    margin: 15px 0px;
+    transition: ease 0.5s;
+}
+#Feature .fbox:hover{
+    box-shadow: 10px 10px 50px rgb(17, 10, 10);
+}
+#Feature .fbox h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1.5;
+    font-weight: 600;
+    border-radius: 4px;
+    color: rgb(245, 247, 246);
+    font-size: 20px;
+}
+
+#Feature .fbox2:hover{
+    box-shadow: 10px 10px 50px rgba(255, 254, 254, 0.39);
+}
+#Feature .fbox2 h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1.5;
+    font-weight: 600;
+    border-radius: 4px;
+    color: rgb(245, 247, 246);
+    font-size: 20px;
+}
+
+/* Products section */
+
+.star-img{
+    margin-top: 5px;
+    width: 15px;
+}
+.star-img2{
+    width: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.pro-img{
+    width: 100%;
+    border-radius: 20px;
+}
+ /* #pr1{
+    text-align: center;
+    background-image: url(images/pexels-murvl-6109826.jpg); 
+
+
+}
+#pr1 h2{
+    font-size: 50px;
+    padding: 20px 0px 0px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+#pr1 p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 600;
+} */
+/* .pro-container{
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: scroll;
+    background-image: url("images/pexels-murvl-6109826.jpg");
+}
+#pr1 .pro{
+    display: inline-block;
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #0c0404;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+    position: relative;
+    margin: 10px;
+    background: linear-gradient(to bottom, black, rgb(194, 9, 9));
+}
+#pr1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.73);
+    transform: translateY(-5px);
+}
+#pr1 .pro .bottom{
+    text-align: start;
+    padding: 10px 0px;
+}
+#pr1 .pro .bottom span{
+    color: #000000;
+    font-weight: 700;
+    font-size: 12px;
+}
+#pr1 .pro .bottom h5{
+    padding-top: 7px;
+    color: #f5eded;
+    font-size: 14px;
+}
+
+#pr1 .pro .bottom h4{
+    padding-top: 7px;
+    font-size: 15px;
+    color: rgb(240, 179, 26);
+} */
+
+/* banner1 */
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-image: url(images/pexels-cottonbro-6765167.jpg);
+    background-position: 50% 15% ;
+    background-size: cover;
+}
+#banner h4{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    /* background-color: rgb(0, 0, 0, 0.2); */
+    
+}
+#banner h2{
+    color: white;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+#banner h2 span{
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(255, 158, 39);
+    padding-top: 10px;
+
+}
+.button-globle{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: rgb(214, 10, 10);
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.button-globle:hover{
+    background-color: rgb(155, 8, 6);
+    color: white;
+    transform: translateY(-4px);
+}
+
+
+
+
+/* Banner here */
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/ChatGPT\ Image\ Jan\ 3\,\ 2026\,\ 11_58_20\ PM.png);
+    background-position: 50% 9%;
+    background-size: cover;
+    padding: 30px;
+    color: #d5d5d5;
+}
+
+.banner-box h4{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    /* background-color: rgb(0, 0, 0, 0.2); */
+}
+.banner-box h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner-box span{
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(211, 58, 35);
+    padding-bottom: 10px;
+
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* #sm-banner .ban-b2{
+    background-image: url(images/banner-1.jpg);
+} */
+#sm-banner .ban-b2 button{
+    margin-top: 300px;
+}
+.marquee{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(227, 0, 0);
+    height: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+/* footer here */
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #3e0e0e;
+    padding: 30px 0px 10px 0px;
+    width: 100%;
+    height: 50vh;
+}
+.logof{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 20px;
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(209, 195, 195);
+    padding: 0px 40px;
+}
+.col a{
+    color: #d5d5d5;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+.copy-right{
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;   
+    color: #ffffff;
+
+}
+/* shop footer bug */
+.copy-right-2{
+    display: block;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+
+/* Sign-up/Log in Page */
+
+.bgl{
+  height: 679px; 
+  max-width: 100% ;
+  background: linear-gradient(135deg, #8c0303, #c31616);
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  background-attachment: fixed;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 420px;
+  padding: 20px;
+}
+
+/* Hide checkbox */
+#toggle {
+  display: none;
+}
+
+.form-box {
+  background: #fff;
+  padding: 35px 30px;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+  text-align: center;
+  position: relative;
+  height: max-content;
+  
+}
+
+/* Brand */
+h1 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 15px;
+  color: #942222;
+  margin-bottom: 15px;
+}
+
+/* Forms */
+form {
+  transition: 0.4s ease;
+}
+
+form h2 {
+  margin-bottom: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #9c9898d3;
+}
+
+input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+#lbutton {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#lbutton:hover {
+  background: rgb(91, 81, 81);
+}
+
+/* Switch */
+.switch {
+  display: block;
+  margin-top: 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.switch span {
+  font-weight: 600;
+  color: #000000;
+}
+.switch span:hover {
+  color: #af0404;
+  text-decoration: underline;
+}
+
+
+/* Toggle logic */
+.signup-form {
+  display: none;
+}
+
+#toggle:checked ~ .form-box .login-form {
+  display: none;
+}
+
+#toggle:checked ~ .form-box .signup-form {
+  display: block;
+}
+
+/* shop page styles */
+#parallaxshop{
+    background-attachment: fixed;
+    background-image: url(Image/shopbg.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center top 100px ;
+    background-repeat: no-repeat;
+    /* padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column ; */
+}
+.shop-text{
+    display: flex;
+    /* width: 50%; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop-text h1{
+    color:#000000; 
+
+}
+.shop-text p{
+    color:#000000; 
+    font-size: 20px;
+}

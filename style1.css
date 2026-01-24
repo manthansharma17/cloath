@@ -1,0 +1,446 @@
+.trial{
+    /* position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+    display: block;
+    width: 100%;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: scroll;
+    /* background-image: url("images/pexels-murvl-6109826.jpg"); */
+}
+
+#pr1{
+  background-image: url(images/pexels-murvl-6109826.jpg);
+  text-align: center;
+}
+#pr1 h2{
+    font-size: 50px;
+    padding: 20px 0px 0px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+#pr1 p{
+    font-size: 25px;
+    padding: 10px 0px 10px;
+    font-weight: 600;
+}
+
+.one{
+    display:inline-block;
+    width: 23%;
+    /* min-width: 25px; */
+    padding: 10px 12px;
+    border: 1px solid #0c0404;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+    position: relative;
+    margin: 10px;
+    background: linear-gradient(to bottom,  black, rgb(194, 9, 9));
+    align-items: center;
+}
+
+.one:hover{
+    box-shadow: 20px 20px 30px #0c0404;
+    transform: translateY(-5px);}
+
+.trial-img{
+    width: 100%;
+    /* max-width: 25%; */
+    /* height: 50%; */
+    border-radius: 25px;
+}
+
+/* image1 */
+.img-box1 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/TW\ anime\ Front.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box1:hover {
+  background-image: url("images/TWanime\ back.png");
+}
+
+/* image2 */
+.img-box2 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/akira\ f.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box2:hover {
+  background-image: url("images/akira\ b.png");
+}
+
+/* image3 */
+.img-box3 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/Grey\ H\ F.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box3:hover {
+  background-image: url("images/Grey\ H\ B.png");
+}
+
+/* image4 */
+.img-box4 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/Black\ H\ F.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box4:hover {
+  background-image: url("images/Black\ H\ B.png");
+  
+}
+
+/* image5 */
+.img-box5 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/blue\ barrel\ f.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box5:hover {
+  background-image: url("images/blue\ barrel\ b.png");
+  
+}
+
+/* image6 */
+.img-box6 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/cargo\ f.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box6:hover {
+  background-image: url("images/cargo\ b.png");
+  
+}
+
+/* image7 */
+.img-box7 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/bootcut\ f.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box7:hover {
+  background-image: url("images/bootcut\ b.png");
+  
+}
+
+/* image8 */
+.img-box8 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/coat\ f.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box8:hover {
+  background-image: url("images/coat\ b.png");
+  
+}
+
+.b1{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.3s;
+}
+.b1:hover{
+    background-color: rgb(194, 9, 9);
+    transform: translateY(-5px);
+}
+.one a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+.button-box{
+     text-align: start;
+    padding: 10px 0px;
+}
+
+.button-box span{
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button-box h5{
+     padding-top: 7px;
+    color: #f5eded;
+    font-size: 14px;
+}
+
+.button-box h4{
+    padding-top: 7px;
+    font-size: 15px;
+    color: rgb(240, 179, 26);
+
+}
+
+/* display: inline-block;
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #0c0404;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+    position: relative;
+    margin: 10px;
+    background: linear-gradient(to bottom, black, rgb(194, 9, 9)); */
+
+    /* image9 */
+.img-box9 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/Black\ Jacket\ FRONT.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box9:hover {
+  background-image: url("images/Black\ Jacket\ BACK.png");
+  
+}
+
+    /* image10 */
+.img-box10 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/Blue\ Denim\ Jacket\ Front.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box10:hover {
+  background-image: url("images/Blue\ Denim\ Jacket\ Bck.png");
+  
+}
+
+    /* image11 */
+.img-box11 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/Dark\ blue\ JF\ .png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box11:hover {
+  background-image: url("images/Dark\ blue\ JB.png");
+  
+}
+
+    /* image12 */
+.img-box12 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/Blue\ J\ F.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box12:hover {
+  background-image: url("images/Blue\ J\ B.png");
+  
+}
+    /* image13 */
+.img-box13 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/Black\ J\ F.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box13:hover {
+  background-image: url("images/Black\ J\ B.png");
+  
+}
+    /* image14 */
+.img-box14 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/Grey\ Jeans.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box14:hover {
+  background-image: url("images/Grey\ jeans\ back.png");
+  
+}
+    /* image15 */
+.img-box15 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/savage\ tshirt\ f.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box15:hover {
+  background-image: url("images/savage\ tshirt\ b.png");
+  
+}
+    /* image16 */
+.img-box16 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/greyblack\ tshirt\ f.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box16:hover {
+  background-image: url("images/greyblack\ tshirt\ b.png");
+  
+}
+    /* image17 */
+.img-box17 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/skin\ j\ f.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box17:hover {
+  background-image: url("images/skin\ j\ b.png");
+  
+}
+
+    /* image18 */
+.img-box18 {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/olive\ tp\ f.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+.img-box18:hover {
+  background-image: url("images/olive\ tp\ b.png");
+  
+}
+
+/* assets00 */
+
+/* .product-img-s2 {
+    width: 70%;
+} */
+
+#pro-details .single-pro-img {
+    width: 40%;
+    margin-right: 50px;
+}
+
+#pro-details .product-img-s2{
+    margin-left: 50px;
+    width: 70%;
+}
+
+#pro-details {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+
+#pro-details .single-pro-text {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#pro-details .single-pro-text h4 {
+    padding: 40px 0px 20px 0px;
+}
+
+#pro-details .single-pro-text h2 {
+    font-size: 26px;
+}
+#pro-details .single-pro-text select {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px 0px;
+    color: rgb(0, 0, 0);
+}
+#pro-details .single-pro-text input {
+    width: 70px;
+    padding: 10px;
+    margin: 10px 30px 0px 0px;
+    color: rgb(0, 0, 0);
+}
+#pro-details .single-pro-text button {
+    padding: 10px;
+    margin: 0px 10px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    /* transition: ease-in 0.3s; */
+    /* border: 1px rgb(219, 82, 32) solid; */
+}
+#pro-details .single-pro-text button:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1c1a1a;
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+                0px 0px 20px rgb(0, 0, 0),
+                0px 0px 10px rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
