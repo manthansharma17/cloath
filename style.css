@@ -6,6 +6,17 @@
     font-family: 'Spartan',sans-serif;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+html{
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+body{
+  ms-overflow-style: none;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -453,7 +464,8 @@
 .bgl{
   height: 679px; 
   max-width: 100% ;
-  background: linear-gradient(135deg, #8c0303, #c31616);
+  /* background: linear-gradient(135deg, #8c0303, #c31616); */
+  background: url(images/pexels-murvl-6109826.jpg);
   display: flex;
   align-items:center;
   justify-content:center;

@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+.lux-contact {
+  min-height: 100vh;
+  background: url('images/pexels-murvl-6109826.jpg');
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100% ;
+  background-size: cover;
+  background-position: right 100px;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.lux-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,.95), rgba(0,0,0,.6));
+}
+
+.lux-container {
+  position: relative;
+  max-width: 1150px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 50px;
+  backdrop-filter: blur(18px);
+  background: rgba(255,255,255,0.05);
+  border-radius: 18px;
+  padding: 50px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.lux-info h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  margin-bottom: 14px;
+}
+
+.lux-info p {
+  color: #cfcfcf;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+.lux-details div {
+  margin-bottom: 12px;
+  font-size: 15px;
+  opacity: .9;
+}
+
+.lux-form input,
+.lux-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  margin-top: 14px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  transition: .3s;
+}
+
+.lux-form input:focus,
+.lux-form textarea:focus {
+  border-color: #ac3030;
+  box-shadow: 0 0 8px #d4af3750;
+}
+
+.lux-form textarea {
+  height: 130px;
+  resize: none;
+}
+
+.lux-form button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #671109, #ab4a45);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+  color:#aaffc3;
+}
+
+.lux-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(193, 66, 57, 0.4);
+}
+
+#luxMsg {
+  display: block;
+  margin-top: 10px;
+  color: #aaffc3;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .lux-container {
+    grid-template-columns: 1fr;
+  }
+}
